@@ -61,7 +61,6 @@
     "tslint": "5.x.x",
     "ts-mockito": "^2.3.1",
     "mocha": "^2.5.3",
-    "proxy-polyfill": "^0.3.1",
     "shell-utils": "1.x.x",
     "react-native": "0.60.5",
     "react": "16.8.6",
@@ -69,9 +68,14 @@
     "jsc-android": "236355.x.x",
     "jest": "24.8.0",
     "metro-react-native-babel-preset": "0.55.x",
+    "react": "16.8.6",
+    "react-native": "0.60.5",
     "react-native-typescript-transformer": "1.2.12",
     "github-release-notes": "0.17.0"
   },
+  "dependencies": {
+    "proxy-polyfill": "^0.3.1"
+  }
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
   },
