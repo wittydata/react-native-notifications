@@ -3,6 +3,8 @@
 [![Build Status](https://img.shields.io/jenkins/s/http/jenkins-oss.wixpress.com:8080/job/multi-react-native-notifications-master.svg)](https://jenkins-oss.wixpress.com/job/multi-react-native-notifications-master/)
 [![npm (tag)](https://img.shields.io/npm/v/react-native-notifications/snapshot.svg)](https://github.com/wix/react-native-navigation/tree/master)
 
+### This FORK Is To Resolved Pending/Unmaintained Issues In Original Project
+
 Handle all the aspects of push notifications for your app, including remote and local notifications, interactive notifications, silent notifications, and more.
 
 **All the native iOS notifications features are supported!** 
