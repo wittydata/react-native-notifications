@@ -1,20 +1,10 @@
 import { Notification } from './DTO/Notification';
 import { Commands } from './commands/Commands';
-import { Platform } from 'react-native';
 import { EventsRegistryIOS } from './events/EventsRegistryIOS';
-import 'proxy-polyfill';
 
 export class NotificationsIOS {
   constructor(private readonly commands: Commands, private readonly eventsRegistry: EventsRegistryIOS) {
-    /*return new Proxy(this, {
-      get(target, name) {
-        if (Platform.OS === 'ios') {
-          return (target as any)[name];
-        } else {
-          return () => {};
-        }
-      }
-    });*/
+
   }
 
   /**
